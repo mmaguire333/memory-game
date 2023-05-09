@@ -1,0 +1,12 @@
+.Scoreboard {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-score, .high-score {
+    width: 200px;
+    border: 1px solid black;
+}
