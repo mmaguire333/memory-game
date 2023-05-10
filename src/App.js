@@ -12,16 +12,20 @@ function App() {
   const updateScore = () => {
     setCurrentScore(currentScore + 1);
 
-    if(currentScore > highScore) {
+    if(currentScore >= highScore) {
       setHighScore(highScore + 1);
     }
+  }
+
+  const resetCurrentScore = () => {
+    setCurrentScore(0);
   }
 
   return (
     <div className="App">
       <Header></Header>
       <Scoreboard currentScore={currentScore} highScore={highScore}></Scoreboard>
-      <CardContainer updateScore={updateScore}></CardContainer>
+      <CardContainer updateScore={updateScore} resetCurrentScore={resetCurrentScore}></CardContainer>
     </div>
   );
 }
