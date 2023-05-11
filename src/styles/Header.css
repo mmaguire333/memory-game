@@ -1,6 +1,7 @@
 .Header {
     height: 100px;
-    background-color: darkred;
+    background-color: firebrick;
+    color: #B3A125;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,35 @@
+.GameOver {
+    display: none;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #B3A125;
+    background-color: firebrick;
+    color: #B3A125;
+    position: absolute;
+    top: 320px;
+    left: calc(50vw - 300px);
+}
+
+.GameOver > h3 {
+    font-size: 45px;
+}
+.GameOver > p {
+    font-size: 25px;
+}
+
+.GameOver > button {
+    width: 300px;
+    height: 70px;
+    margin-top: 100px;
+    font-size: 30px; 
+    color: #B3A125;
+    background-color: #2a75bb;
+    border: 1px solid #B3A125;
+    border-radius: 10px;
+}
+
+.GameOver > button:hover {
+    transform: scale(1.05);
+}
