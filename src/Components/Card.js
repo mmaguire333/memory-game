@@ -8,6 +8,8 @@ function Card(props) {
             props.resetCurrentScore();
             props.resetCardsClicked();
             props.updateIndices();
+            document.querySelector('.CardContainer').style.display = 'none';
+            document.querySelector('.GameOver').style.display = 'block';
         }
     }
 

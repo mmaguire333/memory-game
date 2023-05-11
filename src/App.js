@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from './Components/Header';
 import Scoreboard from './Components/Scoreboard';
 import CardContainer from './Components/CardContainer';
+import GameOver from './Components/GameOver';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Header></Header>
       <Scoreboard currentScore={currentScore} highScore={highScore}></Scoreboard>
       <CardContainer updateScore={updateScore} resetCurrentScore={resetCurrentScore}></CardContainer>
+      <GameOver></GameOver>
     </div>
   );
 }
