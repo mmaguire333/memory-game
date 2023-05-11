@@ -1,5 +1,5 @@
 .Scoreboard {
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -12,4 +12,13 @@
     border-radius: 10px;
     background-color: firebrick;
     color: #B3A125;
+}
+
+
+@media screen and (max-width: 600px) {
+    .Scoreboard {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }

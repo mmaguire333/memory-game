@@ -1,14 +1,14 @@
 .CardContainer {
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px 20px 50px 20px;
     gap: 20px;
 }
 
 .Card {
-    width: 300px;
-    height: 300px;
+    max-width: 1fr;
     border: 2px solid #B3A125;
     border-radius: 10px;
     background-color: firebrick;
@@ -21,4 +21,18 @@
 
 .Card:hover {
     transform: scale(1.03);
+}
+
+@media screen and (max-width: 950px) {
+    .CardContainer {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .CardContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
