@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.bdb41a37.css",
+    "main.js": "/memory-game/static/js/main.29143bc4.js",
+    "static/media/Bulbasaur.png": "/memory-game/static/media/Bulbasaur.07df7dd329cc007676b6.png",
+    "static/media/Ekans.png": "/memory-game/static/media/Ekans.f35b646251b4cc11bbf2.png",
+    "static/media/Sandshrew.png": "/memory-game/static/media/Sandshrew.83d12f4fd5bc04a67f4f.png",
+    "static/media/Vulpix.png": "/memory-game/static/media/Vulpix.48cb81f3bf8c6cad0268.png",
+    "static/media/Growlithe.png": "/memory-game/static/media/Growlithe.78f285687803c9efd69a.png",
+    "static/media/Squirtle.png": "/memory-game/static/media/Squirtle.92d4eeef5107cc2bce59.png",
+    "static/media/Gyarados.png": "/memory-game/static/media/Gyarados.635ce030408db527bce2.png",
+    "static/media/Mew.png": "/memory-game/static/media/Mew.aade9b9ce6d8684ea492.png",
+    "static/media/Jolteon.png": "/memory-game/static/media/Jolteon.7b15398439b0da41c425.png",
+    "static/media/Spearow.png": "/memory-game/static/media/Spearow.44175bbd96b202c87f61.png",
+    "static/media/Pidgey.png": "/memory-game/static/media/Pidgey.86ea7436d7abadad6286.png",
+    "static/media/Snorlax.png": "/memory-game/static/media/Snorlax.d82173fce837fc673d2b.png",
+    "static/media/Charmander.png": "/memory-game/static/media/Charmander.54fdbc5952b9923d0ae9.png",
+    "static/media/Diglett.png": "/memory-game/static/media/Diglett.36135a27d5f00f68734f.png",
+    "static/media/Jigglypuff.png": "/memory-game/static/media/Jigglypuff.5838b0b2af31a340a568.png",
+    "static/media/Quagsire.png": "/memory-game/static/media/Quagsire.1604dbe0355fb7c72f40.png",
+    "static/media/Celebi.png": "/memory-game/static/media/Celebi.d8eff36eba008eb74f6a.png",
+    "static/media/Meowth.png": "/memory-game/static/media/Meowth.173be9578986afdfa09b.png",
+    "static/media/Rattata.png": "/memory-game/static/media/Rattata.c003f822e81ec7294abd.png",
+    "static/media/Abra.png": "/memory-game/static/media/Abra.bf91a10086a9b222b461.png",
+    "static/media/Pikachu.png": "/memory-game/static/media/Pikachu.3d53a3ad2fe90533d27b.png",
+    "static/media/Elekid.png": "/memory-game/static/media/Elekid.c7ed292f6b9ce510db74.png",
+    "static/media/Bellsprout.png": "/memory-game/static/media/Bellsprout.04ec8c45fa937b15693a.png",
+    "static/media/Geodude.png": "/memory-game/static/media/Geodude.820dc665bfc04ab2f6bc.png",
+    "index.html": "/memory-game/index.html",
+    "main.bdb41a37.css.map": "/memory-game/static/css/main.bdb41a37.css.map",
+    "main.29143bc4.js.map": "/memory-game/static/js/main.29143bc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb41a37.css",
+    "static/js/main.29143bc4.js"
+  ]
+}
